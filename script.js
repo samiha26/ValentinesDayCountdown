@@ -65,12 +65,6 @@ const countdown = setInterval(function () {
         }
     };
 
-    // // Function to show a surprise
-    // function showSurprise() {
-    //     const randomIndex = Math.floor(Math.random() * surprises.length);
-    //     const surprise = surprises[randomIndex];
-    //     surpriseContainer.innerHTML = `<div class="surprise">${surprise}</div>`;
-    // }
     // Function to show an animated surprise
     function showAnimatedSurprise() {
         const randomIndex = Math.floor(Math.random() * surprises.length);
@@ -80,9 +74,6 @@ const countdown = setInterval(function () {
 
     // Initial display
     displayContent();
-    // // Show surprise when the button is clicked
-    // document.getElementById('open-gift-box').addEventListener('click', showSurprise);
-
     // Show animated surprise when the button is clicked
     document.getElementById('open-gift-box').addEventListener('click', showAnimatedSurprise);
 
