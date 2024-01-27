@@ -46,7 +46,7 @@ const countdown = setInterval(function () {
         { image: 'images/day13.jpg', text: 'You & I = cuties 💖' },
         { image: 'images/day14.jpg', text: 'Meow Meow Meow!' },
         { image: 'images/day15.jpg', text: 'Remember our first date?\nOH! You looked so handsome!' },
-        { image: 'images/day16.jpg', text: 'HI babu! This is for you!\nRemember to check it every day!\nI love you!' },
+        { image: 'images/day16.jpg', text: 'Hiii baaabbuuu! This is for you!\nRemember to check it every day!\nI love you!' },
 
     ];
 
