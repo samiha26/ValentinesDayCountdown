@@ -1,0 +1,85 @@
+body {
+    
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffd6e5;
+    background: url('images/back3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+#countdown {
+    font-size: 2.5em; /* Increase font size for better visibility */
+    margin-bottom: 20px;
+    color: #ffeded;
+    font-family: 'Courier New', monospace; /* Use a monospaced font */
+}
+
+/* Apply a background color to the countdown to enhance the digital timer appearance */
+#countdown {
+    background-color: #f93271;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block; /* Make the background only as wide as the countdown */
+}
+
+
+#message-container {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card {
+    background-color: #fd8383;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    display: inline-block;
+}
+
+.card img {
+    width: 500px;;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px 10px 0 0; /* Add rounded corners only to the top of the image */
+    border: 20px solid #fd8383; /* Add a 2px pink border around the image */
+}
+
+.card p {
+    padding: 15px;
+    white-space: pre-line;
+}
+
+#surprise-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.surprise {
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #ffc107;
+    border-radius: 10px;
+}
+#open-gift-box {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.animated-surprise {
+    width: 500px;  /* Set the width and height according to your animated figure's size */
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 20px;
+    z-index: 0;
+}
